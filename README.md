@@ -43,3 +43,5 @@ git add <file> && git commit -m <msg>
 ```
 this would resets the commit to the one right before HEAD. This allows us to add the files individually, and commit them individually.
 
+## Resources
+- [Think Like a Git](https://think-like-a-git.net/)
