@@ -7,3 +7,17 @@ first update the staging area to include the missing file, and then replace the 
   git commit --amend
   ```
 **only amend commits that have not been pushed anywhere**
+
+### Changing Multiple Commits | `rebase`
+`git rebase -i HEAD~2` would allows us to edit the last two commits.
+```
+pick abc560f <msg>
+pick c27a76d <msg>
+```
+changing the word `pick` to be `edit` would allow us to use commit, but stop for amending
+```
+We can amend the commit now, with
+       git commit --amend
+Once we're satisfied with the changes, run
+       git rebase --continue
+```
