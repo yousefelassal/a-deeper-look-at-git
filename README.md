@@ -48,3 +48,4 @@ this would resets the commit to the one right before HEAD. This allows us to add
 - [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 - [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/) | Github
 - [About merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) | Github Docs
+- [Learn Git Branching](https://learngitbranching.js.org/) | Interactive tutorial
