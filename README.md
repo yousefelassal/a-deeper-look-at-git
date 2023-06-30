@@ -21,3 +21,11 @@ We can amend the commit now, with
 Once we're satisfied with the changes, run
        git rebase --continue
 ```
+### Squashing Commits | `squash`
+commits would get squashed together into a single commit
+```
+pick e30ff48 <msg>
+squash 92aa6f3 <msg>
+pick 05e5413 <msg>
+```
+this would squash the second commit into the first commit on the list
